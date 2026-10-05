@@ -55,5 +55,5 @@ Público: donos de pequenas e médias empresas e MEIs. Muitos chegam pelo Instag
 - [ ] Cidade / endereço (mostrar endereço? atendimento só online?)
 - [ ] Lista completa de serviços (abertura de empresa, folha de pagamento, imposto de renda, etc.?)
 - [ ] Texto do "Como funciona" e um "Sobre" (formação, trajetória) com foto, se ela quiser
-- [x] Hospedagem: mesma EC2 do site da Rm Beauty Concept, pelo Caddy único em `~/apps/servidor` (cópia em `Documentos\servidor`). Para publicar: descomentar o bloco da Skora no `Caddyfile` e a linha do volume no `docker-compose.yml`, clonar o site em `~/apps/skoracontabilidade` e rodar `docker compose up -d` em `~/apps/servidor`.
+- [x] Hospedagem: mesma VM (Oracle Cloud, `principal-site`) do site da Rm Beauty Concept, pelo Caddy único em `~/apps/servidor` (cópia em `Documentos\servidor`). Para publicar: descomentar o bloco da Skora no `Caddyfile` e a linha do volume no `docker-compose.yml`, clonar o site em `~/apps/skoracontabilidade` e rodar `docker compose up -d` em `~/apps/servidor`.
 - [ ] Domínio (duckdns ou próprio .com.br — redes de empresa costumam bloquear domínios duckdns) e repositório no GitHub
